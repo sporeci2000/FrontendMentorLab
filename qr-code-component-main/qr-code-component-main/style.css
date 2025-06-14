@@ -23,7 +23,8 @@
      background-color: hsl(0, 0%, 100%);
      border-radius: 0.7rem;
      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
-     max-width: 16rem;
+     max-width: 20rem;
+     height: 31rem;
      padding: 1rem;
      margin-bottom: 1rem;
  }
@@ -31,8 +32,9 @@
  .image-qr {
      width: 100%;
      border-radius: 0.7rem;
-     max-height: 18rem;
-     max-width: 18rem;
+     max-height: 20rem;
+     max-width: 20rem;
+     
 
  }
 
@@ -47,8 +49,15 @@
 
  p {
      font-family: 'Outfit';
-     font-size: 15px;
+     font-size: 16px;
      font-weight: 400;
      color: hsl(218, 44%, 22%);
      text-align: center;
+     letter-spacing: 0.2px;
+     line-height: 140%; 
+     font-feature-settings: 'liga' off, 'clig' off;
+     width: 100%;
+     height: auto;
+     padding-top: 10px;
+     
  }

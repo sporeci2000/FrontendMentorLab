@@ -72,6 +72,7 @@ body {
 
 .header:hover {
     color: hsl(47, 88%, 63%);
+    cursor: pointer;
 }
 
 .body-text {
